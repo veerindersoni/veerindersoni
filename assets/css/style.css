@@ -1,0 +1,240 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Poppins,sans-serif;
+    background:#C0392B ;
+    color: white;
+}
+.side_cv{
+
+    }
+.cv_main{
+    height:auto;
+    width: 100%;
+    text-align: center;
+    background-color:#C0392B ; 
+}
+.cv_main img{
+    margin-top:40px;
+    width: 220px;
+    height: 220px;
+    border:10px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px #7B241C;
+}
+.cv_main h1{
+    font-size: 32px;
+    line-height: 38.4px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin-top: 50px;
+  }
+  .cv_main h3{
+   font-size:18px;
+   line-height:32px;
+   letter-spacing:1px;
+   margin:24px 0px 0px;
+   font-weight:400;
+   font-style:normal;
+   text-align: center;
+  }
+.btn{
+    font-size:22px;
+    line-height:47px;
+    padding:0px 20px;
+    font-weight:400;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-shadow: none;
+    background-color: #c0392b;
+    border: 1px solid white;
+}
+.btn:hover{
+    background-color: white;
+    color: #c0392b ;
+}
+.intro{
+    font-size:16px;
+    line-height:28.8px;
+    padding:30px 30px 10px;
+    font-weight:400;
+    border:none;
+    margin: 20px 100px;
+    background-color:#7B241C;
+    border-radius: 30px;
+}
+.intro ul{
+    display: flex;
+    justify-content: safe start;
+    list-style: none;
+    background-color:#7B241C;
+}
+.intro ul li{
+    width: 50%;
+    margin: 10px 15px 15px 20px;
+    background-color:#7B241C;
+
+}
+.my_practice{
+      bprder: 1px solid #333;
+      padding: 20;
+      align-items: center;
+      justify-content: center;
+      border:none;
+      border-radius: 30px;
+      margin: 20px 100px;
+      background-color:#7B241C;
+    }
+.my_practice .practice{
+    z-index: 99;
+    width: 70%;
+    text-align: center;
+    margin: 0px auto;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 10px;
+    position: relative;
+    top:50px;
+    background-color: #7B241C;
+}
+.my_practice .practice span{
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    height: 7px;
+    width: 29%;
+    background-color: #c0392b;
+}
+.my_practice ul{
+    list-style: none;
+    margin: 80px;
+    background-color:#7B241C;
+}
+.my_practice ul li{
+    background-color:#7B241C;
+}
+.my_edu{
+      border:none;
+      padding:50px 60px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 30px;
+      margin: 20px 100px;
+      background-color:#7B241C;
+    }
+.my_edu .edu{
+    z-index: 99;
+    width: 80%;
+    text-align: center;
+    margin: 0px auto;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 10px;
+    position: relative;
+    top:50px;
+}
+.my_edu h1{
+    background-color:#7B241C; 
+}
+.my_edu .edu span{
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    height: 7px;
+    width: 29%;
+    background-color: #c0392b;
+    
+}
+.education{
+    padding:30px;
+    font-weight:400;
+    border:none;
+    margin:70px 20px 0px 20px;
+    background-color:#C0392B ;
+    border-radius: 30px;
+}
+.education h2{
+      font-size: 18px;
+      line-height: 21.6px;
+      letter-spacing: 1px;
+      margin: 5px 0px;
+      font-weight: 500;
+      background-color:#C0392B ;
+}
+.education h3{
+      font-size: 12px;
+      line-height:12px;
+      letter-spacing: 1px;
+      margin: 5px 0px;
+      font-weight: 700;
+      background-color:#C0392B ;
+}
+.education p{
+      font-size: 16px;
+      line-height:28.8pxpx;
+      margin: 5px 0px;
+      font-weight:400;
+      background-color: #C0392B;
+}
+progress{
+        border:none;
+        width: 50%;
+        height: 10px;
+        border-radius: 30px;
+    }
+progress::-webkit-progress-value{
+        background:whitesmoke;
+        border-radius: 30px;
+    }
+progress::-webkit-progress-bar{
+        background:black;
+        border-radius: 30px;
+    }
+
+.coding_hobby{
+    display: flex;
+    justify-content: space-between;
+}
+.c_h{
+      width: 50%;
+      height: 320px;
+      border:none;
+      padding-top: 50px;
+      border-radius: 50px;
+      margin: 60px 100px;
+      text-align: center;
+      background-color:#7B241C ;
+      
+    }
+.c_h h2{
+    padding-bottom:20px;
+    margin: 0p 30px;
+    background-color:#7B241C ;
+     border-radius: 50px;
+}
+.c_h h4{
+    padding: 5px 0px;
+    margin: 0p 30px;
+    background-color:#7B241C ;
+     border-radius: 50px;
+}
+.c_h ul{
+    list-style: none;
+    border-radius: 50px;
+    background-color:#7B241C;
+}
+.c_h ul li{
+    border-radius: 50px;
+    margin:20px 0px 10px 0px ;
+    background-color:#7B241C;
+}
+
+
+
+
+
