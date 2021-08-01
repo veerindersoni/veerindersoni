@@ -1,0 +1,185 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background:url("../images/brain.jpg") no-repeat;
+    background-size: cover;
+}
+#loder{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+h1{
+	font-size: 35px;
+}
+
+.gamee{
+	display: flex;
+	justify-content: space-between;
+}
+.game img{
+	height: 150px;
+	width:150px;
+	border:10px solid #0BF8F4;
+	border-radius: 50%;
+	margin-top: 30px;
+}
+#cpu{
+	margin-top: 50px;
+}
+#ab{
+	position: absolute;
+	top:90;
+	right:0;
+	height: 5px;
+	background-color: black;
+}
+#round{
+     margin: 200px 50px;
+     height: 200px;
+     width: 200px;
+     border:8px solid pink;
+    border-radius: 50%;
+    }
+ #rond{
+     margin: 200px 50px;
+     height: 200px;
+     width: 200px;
+     border:8px solid pink;
+    border-radius: 50%;
+    }
+ .Rame img{
+	height: 150px;
+	width:150px;
+	border:10px solid #0BF8F4;
+	border-radius: 50%;
+	margin-top: 30px;
+}
+#player{
+	margin-top:50px;
+}
+#player h1{
+	text-align: right;
+}
+#barin{
+     margin-top: 30px;
+     text-align: center;
+}
+#barin p{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 70px;
+	color: pink;
+}
+span{
+	margin:50px;
+	font-size:50px;
+}
+#btn{
+     margin:100px;
+     padding: 10px 30px;
+     background-color: pink;
+     color: white;
+     border:none;
+     font-size: 30px;
+     font-weight: 700;
+     border-radius: 15%;
+}
+#bbt{
+     padding: 10px 30px;
+     background-color: pink;
+     color: white;
+     border:none;
+     font-size: 30px;
+     font-weight: 700;
+     border-radius: 15%;
+}
+#bnt{
+     padding: 10px 30px;
+     background-color:white;
+     color:pink;
+     border:none;
+     font-size: 30px;
+     font-weight: 700;
+     border-radius: 15%;
+
+}
+#ab{
+	position: absolute;
+	top:90px;
+	left: 0px;
+	height: 5px;
+	background-color: black;
+	width: 23%;
+
+}
+#bc{
+	position: absolute;
+	top:100px;
+	left: 0px;
+	height: 5px;
+	background-color: black;
+	width: 20%;
+
+}
+#ba{
+	position: absolute;
+	top:90px;
+	right: 0px;
+	height: 5px;
+	background-color: black;
+	width: 23%;
+
+}
+#cb{
+	position: absolute;
+	top:100px;
+	right: 0px;
+	height: 5px;
+	background-color: black;
+	width: 20%;
+
+}
+#aa{
+	position: absolute;
+	top:70px;
+	left: 36%;
+	height: 5px;
+	background-color: black;
+	width: 30%;
+
+}
+#bb{
+	position: absolute;
+	top:80px;
+	left: 34%;
+	height: 5px;
+	background-color: black;
+	width: 34%;
+
+}
+.round i{
+	font-size: 90px;
+	color: white;
+	height: 20px;
+	width: 20px;
+   padding:25px 50px;
+	background:none;
+}
+#rank{
+	position: absolute;
+	top:550px;
+	left:250px;
+	height: 60px;
+	width:100px;
+}
+#bank{
+	position: absolute;
+	top:550px;
+	right:250px;
+	height: 60px;
+	width:100px;
+}
